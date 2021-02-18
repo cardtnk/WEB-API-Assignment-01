@@ -1,0 +1,69 @@
+Http Medthod 
+- Get
+- Post 
+- Put
+- Delete
+
+
+GET /student/:id
+- "1", { name: 'A', email: 'a@email.com' }
+- "2", { name: 'B', email: 'b@email.com' }
+- "", { name: 'Unknownm' }
+
+git 
+git inti ทำให้เป็น working directory
+git add
+git commit
+git log
+git branch
+
+Http
+- Web services(SOAP) -> XML
+- RESTful -> JSON
+- GRPC
+- GraphQL -> JSON
+
+HTTP status Code
+- 2xx
+- 4xx
+- 5xx
+
+HTTP Medthod
+- GET
+- Post
+- Put
+- Delete
+
+TypeScript
+- Syntax
+- Basic Type
+- Function
+- Condition (if, for)
+- Class
+- Object
+- Lexical scope (global scope, function scope, block scope -> let, var, const)
+- Hoisting
+
+RESTful
+- NodeJS, Express
+
+
+// global scope
+
+var a;
+var b;
+
+function hello(){
+    // function scope 
+    var x;
+    var a;
+    var i;
+
+    console.log(i)
+
+    if ( i=0; i < 10; i++) {
+        i++
+    }
+
+    console.log(i)
+}
